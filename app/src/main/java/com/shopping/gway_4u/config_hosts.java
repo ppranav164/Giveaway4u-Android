@@ -2,9 +2,9 @@ package com.shopping.gway_4u;
 
 public class config_hosts {
 
-    public  final String hostname = "https://engravedesigns.in/";
+    public  final String hostname = "http://10.0.2.2/store";
 
-    public final  String BASE_URL = "https://engravedesigns.in";
+    public final  String BASE_URL = "http://10.0.2.2/store/";
 
     public final String home = hostname+"index.php?route=api/home";
 
