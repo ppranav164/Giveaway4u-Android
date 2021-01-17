@@ -203,7 +203,7 @@ public class MainActivity extends AppCompatActivity
 
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle("Engravedesigns");
+        getSupportActionBar().setTitle(getString(R.string.app_name));
         getSupportActionBar().setDisplayShowTitleEnabled(true);
 
 
