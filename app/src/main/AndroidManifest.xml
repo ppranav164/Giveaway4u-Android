@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.shopping.engravedesigns">
+    package="com.shopping.gway_4u">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -19,24 +19,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
-        <activity android:name=".AboutActivity"></activity>
-        <activity android:name=".WebBrowser" />
-        <activity android:name=".searchProduct" />
-        <activity android:name=".forgottpasswrodActivity" />
-        <activity android:name=".downloadsActity" />
-        <activity android:name=".customer_reviews" />
-        <activity android:name=".ReviewOrder" />
+        <activity android:name="com.shopping.gway_4u.AboutActivity"></activity>
+        <activity android:name="com.shopping.gway_4u.WebBrowser" />
+        <activity android:name="com.shopping.gway_4u.searchProduct" />
+        <activity android:name="com.shopping.gway_4u.forgottpasswrodActivity" />
+        <activity android:name="com.shopping.gway_4u.downloadsActity" />
+        <activity android:name="com.shopping.gway_4u.customer_reviews" />
+        <activity android:name="com.shopping.gway_4u.ReviewOrder" />
         <activity
-            android:name=".TrackStepper"
+            android:name="com.shopping.gway_4u.TrackStepper"
             android:theme="@style/Trackertheme" />
 
-        <service android:name=".GettingDeviceTokenService">
+        <service android:name="com.shopping.gway_4u.GettingDeviceTokenService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name=".FirebaseCloudService"
+            android:name="com.shopping.gway_4u.FirebaseCloudService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -51,41 +51,41 @@
             android:value="false" />
 
         <activity
-            android:name=".PrivacyPolicy"
+            android:name="com.shopping.gway_4u.PrivacyPolicy"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
 
         <activity
-            android:name=".TermsConditions"
+            android:name="com.shopping.gway_4u.TermsConditions"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
 
-        <activity android:name=".TrackPackage" />
-        <activity android:name=".CurencySettings" />
+        <activity android:name="com.shopping.gway_4u.TrackPackage" />
+        <activity android:name="com.shopping.gway_4u.CurencySettings" />
         <activity
-            android:name=".FullscreenSlider"
+            android:name="com.shopping.gway_4u.FullscreenSlider"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
-        <activity android:name=".gallery" />
-        <activity android:name=".orderInfo" />
-        <activity android:name=".AddAddress" />
-        <activity android:name=".MyAccount" />
+        <activity android:name="com.shopping.gway_4u.gallery" />
+        <activity android:name="com.shopping.gway_4u.orderInfo" />
+        <activity android:name="com.shopping.gway_4u.AddAddress" />
+        <activity android:name="com.shopping.gway_4u.MyAccount" />
         <activity
-            android:name=".logo_splash"
+            android:name="com.shopping.gway_4u.logo_splash"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
-        <activity android:name=".instamojo" />
-        <activity android:name=".ReviewlCheckout" />
-        <activity android:name=".syncInformations" />
-        <activity android:name=".Activity_wishlist" />
-        <activity android:name=".Activity_products" />
+        <activity android:name="com.shopping.gway_4u.instamojo" />
+        <activity android:name="com.shopping.gway_4u.ReviewlCheckout" />
+        <activity android:name="com.shopping.gway_4u.syncInformations" />
+        <activity android:name="com.shopping.gway_4u.Activity_wishlist" />
+        <activity android:name="com.shopping.gway_4u.Activity_products" />
         <activity
-            android:name=".Activity_Register"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
-        <activity
-            android:name=".Activity_login"
+            android:name="com.shopping.gway_4u.Activity_Register"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.shopping.gway_4u.Activity_login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.shopping.gway_4u.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity_Splash"
+            android:name="com.shopping.gway_4u.activity_Splash"
             android:label="@string/app_name"
             android:theme="@style/Theme.Design.Light.NoActionBar">
             <intent-filter>
