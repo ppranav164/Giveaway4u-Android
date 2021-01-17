@@ -16,24 +16,6 @@ public class activity_Splash extends AppCompatActivity {
         setContentView(R.layout.layout_login);
 
 
-//        final Thread thread = new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//
-//               try {
-//                   Thread.sleep(2000);
-//
-//                   Intent intent = new Intent(getApplicationContext(),Activity_login.class);
-//                   startActivity(intent);
-//                   finish();
-//               }catch (Exception e)
-//               {
-//                   e.printStackTrace();
-//               }
-//            }
-//        });
-
-
         SharedPreferences preferences = getSharedPreferences("cookie",MODE_PRIVATE);
 
         Boolean status_login = preferences.getBoolean("logged_in",false);
