@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "174547763838",
+    "firebase_url": "https://fir-ad627.firebaseio.com",
+    "project_id": "fir-ad627",
+    "storage_bucket": "fir-ad627.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174547763838:android:2c850cff667029a4b24e2f",
+        "android_client_info": {
+          "package_name": "com.shopping.gway_4u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174547763838-f3e8l794in15sqlsauq20514aik7sstt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt2ekXbL_wsFpxyh-i5A-Dg-tu1-7BTWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174547763838-f3e8l794in15sqlsauq20514aik7sstt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
